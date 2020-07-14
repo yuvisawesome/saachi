@@ -1,0 +1,141 @@
+
+/* fonts */
+.lato {font-family: Lato, sans-serif;}
+
+.yellowtail {font-family: Yellowtail, cursive;}
+
+.modak {font-family: Modak, cursive;}
+
+.bangers {font-family: Bangers, cursive;}
+
+.patrick {font-family: 'Patrick Hand', cursive;}
+
+.bold {font-weight: bold;}
+
+.italic {font-style: italic;}
+
+.xlarge {font-size: 5.1rem;}
+
+.large {font-size: 4rem;}
+
+.medium {font-size: 3rem;}
+
+.normal {font-size: 1.8rem;}
+
+.small {font-size: 1.5rem;}
+
+.xsmall {font-size: 1rem;}
+
+/* colors */
+.bg-color {
+  background-color: #f6def6;
+}
+.white {
+  color: white;
+}
+.heading-color {
+  color: #660066;
+  outline-color: #fff;
+}
+
+
+
+/* Other Classes */
+.center {
+  text-align: center;
+}
+
+.shorten-60 {
+  display: inline-block;
+  width: 60%;
+}
+.shorten {
+  display: inline-block;
+  width: 80%;
+}
+.rounded-20 {
+  border-radius: 20%;
+}
+.rounded {border-radius: 50%;}
+
+
+.gradient-text {
+  background: -webkit-linear-gradient(-45deg,
+    #111d5e,
+    #1b6ca8,
+    #086972
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-head {
+  background: -webkit-linear-gradient(-45deg,
+    #f54291,
+    #ff427f,
+    #fe91ca,
+    #ffe0f7
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-container {
+  background-color: #f6f6f6;
+  padding: 3rem 2rem;
+  border-radius: 3rem;
+  border-style: double;
+  box-shadow: 0 5px .9rem #900c3f;
+  border-color: #900c3f;
+
+}
+
+.rotate {
+  transition-duration: 1s;
+  transform: rotate(180deg);
+}
+
+.carbon {
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  margin: 2rem auto 0 auto;
+  padding: 3rem;
+}
+.double-hr {
+  border-style: none;
+  border-top-style: double;
+}
+.standard-hr {
+    margin: 3rem auto;
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #f76a8c;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 70%;
+}
+.standard-hr::before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #f76a8c;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}

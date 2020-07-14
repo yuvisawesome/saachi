@@ -1,0 +1,269 @@
+/* Classes */
+.bg-gradient {
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  border-color: #900c3f;
+  border-style: solid;
+  display: inline-block;
+
+  background-color: #e3638745;
+  background: linear-gradient(90deg,
+      #e36387,
+      #fff,
+      #fff,
+      #e36387);
+  box-shadow: 10px 0 3em #900c3f, -10px 0 3em #900c3f;
+  margin-top: 7rem;
+}
+
+.body {
+  background-color: #4cd3c255;
+}
+
+h1 {
+  background: -webkit-linear-gradient(orange 52%, #f54291);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation and Navbar */
+nav {
+  position: fixed;
+  background-color: #fb929e;
+  padding: 1rem 5rem;
+  box-shadow: 0 4px .4em #c86b85;
+  background: repeating-linear-gradient(45deg,
+      #fb929ecc,
+      #fb929ecc 50px,
+      #fcbad3cc 50px,
+      #fcbad3cc 100px);
+  margin-bottom: 8rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+nav ul {
+  text-align: right;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+li {
+  display: inline-block;
+}
+
+.nav-element {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c86b85;
+  border-radius: 25% / 50%;
+  text-align: center;
+  min-width: 5rem;
+  min-height: auto;
+  background-color: #f6def6;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  align-items: center;
+  font-size: 1.35rem;
+  color: #c86b85;
+}
+
+.nav-element:hover {
+  text-decoration: none;
+  color: #c86b8588;
+  background-color: #f6def6be;
+}
+
+
+nav:last-child {
+  text-align: center;
+  margin-left: auto;
+}
+
+a i {
+  margin-left: 10px;
+}
+
+/* Larger SCREENS */
+@media only screen and (min-width: 1024px) {
+  .nav-element {
+    margin: auto 0.3rem;
+  }
+
+  nav ul {
+    margin-left: auto;
+  }
+
+  .bg-gradient{
+      width: 80vw;
+  }
+  .body::after {
+    content: "";
+    background: url('../images/abstract-img.png');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+}
+
+/* MEDIUM SCREENS */
+
+@media only screen and (min-width: 600pt) {
+
+}
+
+/* Smaller  SCREENS */
+@media only screen and (max-width: 600pt) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+  nav ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .bg-gradient {
+    width: 95vw;
+    padding: auto 0;
+  }
+
+  .text-container {
+    padding: 0;
+  }
+
+  .shorten-60 {
+    display: inline-block;
+    width: 90%;
+    padding: 1rem;
+  }
+  .heading {
+    padding: 0;
+    z-index: 3;
+  }
+  .header {
+    padding: 0;
+    z-index: -1;
+  }
+}
+
+/* HEADER */
+#header {
+  text-align: center;
+  padding: 2rem 10rem;
+  margin-bottom: 4rem;
+}
+
+#header h1 {
+  font-size: 8rem;
+  z-index: 900;
+}
+
+.heading {
+  margin-top: 2rem;
+  color: #ff427f;
+
+}
+
+
+.head {
+  color: #4cd3c2;
+  font-size: 4rem;
+  font-family: "Patrick Hand", cursive;
+  text-decoration: underline;
+}
+
+/* Explore */
+.explore-group {
+  padding: auto 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.explore-card {
+  padding: 1rem 2rem;
+  background-color: #faffff;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.6em;
+  border-image:
+    linear-gradient(90deg,
+      #ff427f 20%,
+      #0055ff,
+      #cff1ef,
+      #0055ff,
+      #ff427f 80%) 1 20%;
+  margin: 1rem;
+  height: 23rem;
+  width: 30rem;
+}
+.explore-card img {
+  display: inline-block;
+  height: 10rem;
+  width: auto;
+}
+
+.explore-card a {
+  margin: 1rem;
+  display: block;
+}
+
+/* INFO */
+
+.info-text {
+  margin-top: 2rem;
+}
+
+#more-text {
+  display: none;
+}
+
+#moreTextButton {
+  font-size: 2.3rem;
+  display: inline-block;
+  background-color: ;
+  border-style: none;
+  margin: ;
+  color: ;
+}
+
+#moreTextButton:focus {
+  outline: none;
+}
+
+#moreTextButton i {
+  margin: auto 0.41rem;
+  display: inline;
+}
+
+.gradient-greenblue {
+  background: -webkit-linear-gradient(-45deg,
+    #111d5e,
+    #086972,
+    #a0ffe6
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* FOOTER */
+
+footer {
+  color: white;
+}
+
+footer h2 {
+  font-size: 3rem;
+}
+footer h4 {
+  font-size: 1.7rem;
+}

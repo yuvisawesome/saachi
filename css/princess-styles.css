@@ -1,0 +1,45 @@
+
+/* HTML ELEMENTS */
+
+body {
+  padding-left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+/* HEADING */
+
+.heading-container {
+  padding: 5rem 15rem;
+  display: inline-block;
+  background-color: ;
+  background-image: linear-gradient( rgba(229, 190, 225, 0.4) ,rgba(183, 238, 225, 0.4)),
+                    url("../images/sparkles.jpg");
+}
+
+.heading {
+  padding: 1rem 3rem;
+  background-color: rgba(229, 58, 225, 0.2);
+}
+
+
+/* BOOTSTRAP MODIFICATIONS */
+.card {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5%;
+  border-style: dashed double none;
+  border-width: 5px;
+  border-color: #e43f5a;
+}
+
+.image {
+  background-color: #035aa6;
+  border-radius: 50%;
+  width: 254px;
+  height: 254px;
+}
+
+h5 {
+  font-family: Bangers;
+  font-size: 2rem;
+}
