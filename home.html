@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Saachi's Magical World</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- BOOTSTRAP AND CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <!-- Font Awesome and Fonts -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Modak&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+
+<body class="body lato center">
+
+  <section id="navbar">
+    <nav class="">
+      <ul>
+        <li ><a class="nav-element" href="#">Home | <i class="fas fa-home"></i></a> </li>
+        <li ><a class="nav-element" href="#explore">Explore | <i class="fas fa-compass"></i></a> </li>
+        <li ><a class="nav-element" href="#info">More | <i class="fas fa-info-circle"></i></a> </li>
+      </ul>
+    </nav>
+  </section>
+
+  <div class="bg-gradient">
+
+
+    <section id="header">
+      <div class="heading">
+        <h1 class="yellowtail">Saachi's Magical World!</h1>
+        <p class="small bangers">With Fairies and Princesses and Origami and MORE!</p>
+      </div>
+    </section>
+    <section id="explore"> <!-- For navbar fixes-->
+      <hr>
+    </section>
+
+    <section id="explore-section">
+      <h2 class="head">EXPLORE</h2>
+
+      <div class="explore-group">
+        <div class="explore-card">
+          <h3 class="lato bold gradient-head">PRINCESSSES</h3>
+          <p class="lato gradient-text">Read the stories of our favourite princesses.</p>
+          <img src="images/princesses.jpg" alt="princess-image">
+          <a href="princess.html" class="btn btn-outline-info btn-lg">Princesses!</a>
+        </div>
+
+        <div class="explore-card">
+          <h3 class="lato bold gradient-head">ART</h3>
+          <p class="lato gradient-text">See some of my crafts, origami, art works, etc.</p>
+          <img src="images/kusudama.jpg" alt="kusudama-image">
+          <a href="princess.html" class="btn btn-outline-info btn-lg">Arts!</a>
+        </div>
+
+        <div class="explore-card">
+          <h3 class="lato bold gradient-head">ENTERTAINMENT</h3>
+          <p class="lato gradient-text">See some of my favourite movies and songs.</p>
+          <img src="images/song.png" alt="song-image">
+          <a href="princess.html" class="btn btn-outline-info btn-lg">Entertainment!</a>
+        </div>
+
+        <div class="explore-card">
+          <h3 class="lato bold gradient-head">GAMES</h3>
+          <p class="lato gradient-text">Play some of my favourite games.</p>
+          <img src="images/games.png" alt="games-image">
+          <a href="princess.html" class="btn btn-outline-info btn-lg">Games!</a>
+        </div>
+      </div>
+
+    </section>
+      <hr id="info">
+    <section id="more">
+      <h2 class="head">INFO</h2>
+      <div class="text-container shorten-60 info-text">
+        <p class="shorten-60 small gradient-text">My name is <strong>Saachi Jain</strong>.
+          I am an <strong>8</strong> year old girl. I am <strong>Indian</strong> but I live in <strong>Tokyo, Japan</strong> with my family. I have an amazing brother, <a href="https://yuvisawesome.github.io/yj/">Yatharth Jain</a>, who made this website. I also have amazing parents. I love playing with dolls, dancing, singing, and <strong>talking!</strong>
+          <span id="dots">...</span> <span id="more-text">I go to the school, IISJ (India International School in Japan). I am in grade 3. (----ADD MORE STUFF----)</span>
+
+        </p>
+        <br>
+        <button onclick="moreText()" type="button" name="button" id="moreTextButton" class="gradient-greenblue"><i class="fas fa-chevron-circle-down"></i></button>
+      </div>
+
+    </section>
+    <hr>
+
+  </div>
+
+  <footer class="rounded carbon">
+    <h2>THANK YOU!</h2>
+    <h4>Made by Yatharth Jain. <br> Hope you liked it!</h4>
+    <hr class="double-hr">
+    <p id="social-media"> <a href="https://www.instagram.com/yuvidagreat/"> <i class="fab fa-instagram"></i></a>  <a href="tel:+81 070 1060 2351"> <i class="fas fa-phone-alt"></i> </a> <a href="mailto:yuviscool@gmail.com"> <i class="fas fa-envelope"></i> </a>  </p>
+  </footer>
+
+  <script src="home.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+
+</html>
